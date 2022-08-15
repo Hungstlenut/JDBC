@@ -1,0 +1,42 @@
+- I used Azul-15 as the project SDK
+- I also installed the JDBC driver manager through Maven library,
+    getting the mysql-connector-java-8.0.27.jar and protobuf-java-3.11.4.jar.
+- I included a folder name ".m2" and it contains all the libraries that has been with
+    my IDE.
+
+Java is an object oriented programming (OOP) language, that relies on the concept
+of objects and classes. It shines especially when it comes to creating reusable pieces
+of code blueprints. These blueprints are can be used to create individual instances
+of objects; making this language suitable to simulate the real world.
+
+Java follows 4 principles:
+1.  Encapsulation,
+    which gives us the ability to hide direct access to data. E.g. by setting variables
+    to private, we would have to use getter and setter methods.
+    I used this technique to hide sensitive data like name and user score.
+
+2.  Polymorphism,
+    is an object's ability to take on multiple "forms". This is a very common reoccurring
+    technique, which is used almost everywhere. It is the "play" between a parent and a child
+    class object. E.g. we see it when a parent class referencing type of variable is being
+    used to refer to a child class object. This concept makes it possible for me to assign the
+    driver and make the connection to the database for this project.
+
+3.  Inheritance,
+    through words like extend and implement, we are able to define the relationship between two
+    classes. This way, a child class can claim the properties and methods of a parent class.
+    The concept extends even to the native methods in Java. I have widely been using this
+    concept to handle connection to the database, calling methods and making array lists, which
+    is ultimately a part of the root interface of the collection hierarchy.
+
+4.  Abstraction,
+    is meant to show the user the functionality by hiding the details of implementation.
+    So that we can see how for example the object work without much complication of how it does it.
+    I have used this technique repeatedly in for example the user and quiz class. By collecting
+    the most common elements, and making the other classes inherit and fill the gap.
+
+JDBC is an API that gives us the ability to access database management systems, like MySQL.
+I have been using it repeatedly to gain access and manipulate data. It provides e.g. the
+method to "counter" SQL-injections through prepared statements; which I used to prevent an
+injection through signing up.
+
